@@ -56,10 +56,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EDa64BBSWx1Juen08v5l-18" value="Выполнить интерполяцию полинома" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="545" width="120" height="80" as="geometry" />
+          <mxGeometry x="270" y="545" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EDa64BBSWx1Juen08v5l-22" value="Восстановить пароль" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="440" width="120" height="80" as="geometry" />
+          <mxGeometry x="430" y="450" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EDa64BBSWx1Juen08v5l-24" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="EDa64BBSWx1Juen08v5l-22">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
