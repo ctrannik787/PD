@@ -17,7 +17,7 @@
           <mxGeometry x="270" y="380" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EDa64BBSWx1Juen08v5l-8" value="Зарегистрироваться" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="200" width="120" height="80" as="geometry" />
+          <mxGeometry x="270" y="220" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EDa64BBSWx1Juen08v5l-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EDa64BBSWx1Juen08v5l-8" target="EDa64BBSWx1Juen08v5l-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -49,17 +49,17 @@
             <mxPoint x="620" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EDa64BBSWx1Juen08v5l-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="EDa64BBSWx1Juen08v5l-7" target="EDa64BBSWx1Juen08v5l-2">
+        <mxCell id="EDa64BBSWx1Juen08v5l-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" target="EDa64BBSWx1Juen08v5l-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="470" as="sourcePoint" />
+            <mxPoint x="270" y="420" as="sourcePoint" />
             <mxPoint x="440" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EDa64BBSWx1Juen08v5l-18" value="Выполнить интерполяцию полинома" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="600" width="120" height="80" as="geometry" />
+          <mxGeometry x="260" y="545" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EDa64BBSWx1Juen08v5l-22" value="Изменить пароль" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="450" width="120" height="80" as="geometry" />
+        <mxCell id="EDa64BBSWx1Juen08v5l-22" value="Восстановить пароль" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="440" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EDa64BBSWx1Juen08v5l-24" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="EDa64BBSWx1Juen08v5l-22">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -67,7 +67,7 @@
             <mxPoint x="620" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EDa64BBSWx1Juen08v5l-25" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.06;entryY=0.22;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EDa64BBSWx1Juen08v5l-7" target="EDa64BBSWx1Juen08v5l-22">
+        <mxCell id="EDa64BBSWx1Juen08v5l-25" value="" style="endArrow=none;html=1;rounded=0;exitX=0.913;exitY=0.745;exitDx=0;exitDy=0;entryX=0.04;entryY=0.315;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="EDa64BBSWx1Juen08v5l-7" target="EDa64BBSWx1Juen08v5l-22">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="470" as="sourcePoint" />
             <mxPoint x="440" y="420" as="targetPoint" />
