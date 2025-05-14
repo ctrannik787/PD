@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт проекта "Охрана труда на предприятии"</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background-color: #444;
+            overflow: hidden;
+        }
+
+        nav li {
+            float: left;
+        }
+
+        nav a {
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .tab-content {
+            display: none; /* Initially hide all content */
+        }
+
+        .tab-content.active {
+            display: block; /* Show the active content */
+        }
+        /*.my-contribution img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto; 
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1); 
+        }*/
+        #участники img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto; /* Центрирование изображения и отступ */
+            border-radius: 10px; /* Добавление скругленных углов */
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* Тень для изображения */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Сайт проекта "Охрана труда на предприятии"</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#домашняя_страница">Домашняя страница</a></li>
+            <li><a href="#о_проекте">О проекте</a></li>
+            <li><a href="#участники">Участники</a></li>
+            <li><a href="#журнал">Журнал</a></li>
+            <li><a href="#ресурсы">Ресурсы</a></li>
+            <!-- Добавьте другие ссылки на вкладку -->
+        </ul>
+    </nav>
+
+    <div class="content">
+        <div id="домашняя_страница" class="tab-content">
+            <!--<img src="https://disk.yandex.com.am/i/YLopjROInJMA7A" alt="Фотография">-->
+            <p>Здесь будет аннотация</p>
+        </div>
+        <div id="о_проекте" class="tab-content active">
+            <p>Текст о проекте. Здесь будет подробная информация о проекте "Охрана труда на предприятии".</p>
+        </div>
+        <div id="участники" class="tab-content">
+            <img src="https://i.postimg.cc/1X0PrP1f/foto.png" alt="Фотография участника">
+            <p>Текст об учасниках и их вкладе.</p>
+        </div>
+        <div id="журнал" class="tab-content">
+            <!--<img src="C:\files\foto.png" alt="Фотография">-->
+            <p>Здесь будут посты о прогрессе работы</p>
+        </div>
+        <div id="ресурсы" class="tab-content">
+            <!--<img src="C:\files\foto.png" alt="Фотография">-->
+            <p>Здесь будут ссылки на полезные материалы</p>
+        </div>
+        <!-- Добавьте другие div с id для других вкладок -->
+    </div>
+
+<script>
+    // Получаем все ссылки в навигации
+    const navLinks = document.querySelectorAll('nav a');
+
+    // Обработка кликов по ссылкам
+    navLinks.forEach(link => {
+        link.addEventListener('click', function(event) {
+            event.preventDefault(); // Отменяем стандартное поведение ссылки
+
+            // Получаем id целевой вкладки
+            const targetId = this.getAttribute('href').substring(1);
+
+            // Убираем класс active у всех вкладок
+            document.querySelectorAll('.tab-content').forEach(content => {
+                content.classList.remove('active');
+            });
+
+            // Добавляем класс active к целевой вкладке
+            document.getElementById(targetId).classList.add('active');
+        });
+    });
+</script>
+
+</body>
+</html>
